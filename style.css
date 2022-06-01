@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* Soluzione solo proprietà e valori */
+/* Soluzione solo parametro */
+/* Soluzione con parametri, elementi e proprietà */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1rem;
+}
+
+div {
+  border: 1px solid red;
+  padding: 2rem 1rem 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+div h1 {
+  color: green;
+  border-bottom: 1px solid blue;
+  width: fit-content;
+  text-align: center;
+  margin: 0 auto;
+}
+div section {
+  display: flex;
+  justify-content: center;
+}
+div section article {
+  color: blue;
+  padding: 1rem;
+  flex: 1;
+  font-size: 1rem;
+  border: green solid 1px;
+}
+div section p {
+  text-align: center;
+}
+div section article:nth-of-type(even) {
+  color: red;
+}
+div section:last-of-type article {
+  color: green;
+  padding: 1rem;
+  flex: 1;
+  font-size: 24px;
+  border: blue solid 1px;
+}
+
+/*Ho usato variabili quando venivano richiesti i valori nell'include, l'alternativa è il valore in chiaro*/
+
+/*# sourceMappingURL=style.css.map */
